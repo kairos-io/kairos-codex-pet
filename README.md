@@ -2,7 +2,9 @@
 
 An animated Codex pet built from the six armadillo mascot illustrations in the [Kairos community repository](https://github.com/kairos-io/community/tree/main/artwork/mascot/SVG).
 
-![Kairos Armadillo animation states](dist/kairos-armadillo-preview.png)
+<p align="center">
+  <img src="docs/kairos-armadillo-demo.gif" width="280" alt="Kairos Armadillo animated inside Codex">
+</p>
 
 ## Install
 
@@ -16,6 +18,14 @@ cp -R dist/kairos-armadillo ~/.codex/pets/
 Then open **Settings > Pets**, select **Refresh**, choose **Kairos Armadillo**, and select **Wake Pet**.
 
 For the legacy/web upload flow, upload `dist/kairos-armadillo-upload.png` from the Pets settings page.
+
+## Preview
+
+<img src="docs/kairos-armadillo-screenshot.png" width="280" alt="Kairos Armadillo resting above the Codex quick-chat control">
+
+The generated atlas includes idle, look, jump, click, drag, and active animation states:
+
+![Kairos Armadillo animation states](dist/kairos-armadillo-preview.png)
 
 ## Build
 
@@ -34,6 +44,8 @@ The build script renders the SVG artwork into transparent sprite cells, assemble
 - `dist/kairos-armadillo-v2.png`: standalone 1536 x 2288 v2 atlas.
 - `dist/kairos-armadillo-upload.png`: 1536 x 1872 upload-compatible atlas.
 - `dist/kairos-armadillo-preview.png`: labeled preview of animation states.
+- `docs/kairos-armadillo-demo.gif`: compact in-app animation demo.
+- `docs/kairos-armadillo-screenshot.png`: static in-app preview.
 
 ## Artwork
 

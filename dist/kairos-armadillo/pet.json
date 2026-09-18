@@ -1,0 +1,7 @@
+{
+  "id": "kairos-armadillo",
+  "displayName": "Kairos Armadillo",
+  "description": "The Kairos armadillo mascot, adapted as an animated Codex pet.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.png"
+}

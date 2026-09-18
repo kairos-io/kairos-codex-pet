@@ -1,0 +1,17 @@
+{
+  "name": "kairos-codex-pet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kairos armadillo mascot packaged as an animated Codex pet.",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "npm run build"
+  },
+  "dependencies": {
+    "sharp": "^0.35.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
